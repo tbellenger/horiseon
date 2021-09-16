@@ -3,7 +3,7 @@ The main page contains articles on search optimization, online reputation manage
 
 The page has been improved to be more accessible with alt attributes on the images and semantic tags to improve screen reader and search engine optimization. 
 
-The page is hosted live here: [Horiseon](./doc/index.html)
+The page is hosted live here: [Horiseon](https://tbellenger.github.io/horiseon/doc/index.html)
 
 A demo of the main page follows:
 
