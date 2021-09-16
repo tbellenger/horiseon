@@ -1,9 +1,11 @@
+/* Override browser std settings */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Set body color and font color, size and family */
 body {
     background-color: #d9dcd6;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
@@ -11,26 +13,31 @@ body {
     color: #ffffff;
 }
 
+/* Set the padding, font and background on the header element of the page */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', sans-serif;
     background-color: #2a607c;
 }
 
+/* The header title styling */
 header h1 {
     display: inline;
     font-size: 48px;
 }
 
+/* Change the color of the 'seo' part of Horiseon title text */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Override the anchor link decoration and color for the header*/
 header a {
     text-decoration: none;
     color: #ffffff;
 }
 
+/* Set the nav bar section to the right and configure padding and font */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -39,15 +46,18 @@ header nav {
     font-size: 20px;
 }
 
+/* Remove nav bar list dots */
 header nav ul {
     list-style-type: none;
 }
 
+/* Set to display inline instead of block to be inline with the title of the header */
 header nav ul li {
     display: inline;
     margin-left: 25px;
 }
 
+/* Set up hero image and make sure it is cover and center to show the whole image*/
 .hero {
     height: 800px;
     /*width: 100%;*/
@@ -57,6 +67,7 @@ header nav ul li {
     background-position: center;
 }
 
+/* Floating the images either to the left or the right on the articles */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -67,28 +78,30 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/* Content section CSS */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-article {
+.content article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     background-color: #0072bb;
 }
 
-article img {
+.content article img {
     max-height: 200px;
 }
 
-article h2 {
+.content article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Benefits section CSS */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -114,6 +127,7 @@ article h2 {
     max-width: 150px;
 }
 
+/* Footer with font and color changes */
 footer {
     padding: 30px;
     clear: both;
